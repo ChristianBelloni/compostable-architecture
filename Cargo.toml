@@ -1,0 +1,11 @@
+[package]
+name = "compostable-architecture"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+busybody = "0.3.11"
+futures = "0.3.31"
+futures-signals = "0.3.34"
+tokio = { version = "1.41.0", features = ["macros", "rt", "rt-multi-thread", "time"] }
+uniffi = { version = "0.28.2", features = ["tokio"] }
